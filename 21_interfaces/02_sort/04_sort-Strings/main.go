@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+	"sort"
+)
+
+func main() {
+	s := []string{"Zeno", "John", "Al", "Jenny"}
+	fmt.Println(s)
+	sort.Strings(s)
+	fmt.Println(s)
+
+}
+
+//https:www.golang.org/pkg/sort/#Sort
+//https:www.golang.org/pkg/sort/#Interface
